@@ -4,53 +4,61 @@
     text-align: center;
   }
 
-header {
+  body{
+font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+color: #777;
+background: #777;
+width: 960px;
+font-size: 18px;
+margin: 5px auto;
+  }
+
+  header {
     padding: 20px;
     margin-bottom: 20px;
     color: #333;
-    background: #ccc;
+    background: #ebebeb;
   }
   
   nav{
     padding: 20px;
       color: #333;
-      background: #ccc;
+      background: #ebebeb;
       margin-bottom:20px;
   }
 
-  #right{
+  aside{
         float: right;
-        width: 45%;
-        height: 150px;
-        border: 1px solid #eee;
+        width: 48%;
+        height: 178px;
         padding: 10px;
         color:#333;
-        background:#ccc;
+        background: #ebebeb;
       }
 
-    #full{
+    section{
     width: 50%;
     background:#eee;
+    padding:10px;
+    margin-bottom:20px;
   }
   
-  #division {
-  background: #ccc;
-  float:middle;
-  padding:10px;
-  margin-bottom:25px;
-}
+  article {
+    background:#777;
+    color:#ebebeb;
+    padding: 10px;
+  }
 
-#p{
-  background:#ccc;
-  padding:10px;
-  margin-bottom:20px;
-  float:middle;
-}
-
+  h1, p {
+    color:#777;
+    background:#ebebeb;
+    padding:5px;
+    margin:10px;
+  }
   
 footer{
   padding: 20px;
   margin-bottom: 20px;
   color: #333;
-  background: #ccc;
+  background:#ebebeb;
 }
